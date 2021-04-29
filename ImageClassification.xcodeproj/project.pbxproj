@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E8EC1F02626C4B1007DA1EF /* classes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E8EC1EF2626C4B1007DA1EF /* classes.txt */; };
 		5E8EC1F82629F593007DA1EF /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 5E8EC1F72629F593007DA1EF /* model.tflite */; };
+		5E8EC201262EB730007DA1EF /* model_ft16.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 5E8EC200262EB730007DA1EF /* model_ft16.tflite */; };
 		AA16E5A22180843800D9E153 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA16E5A12180843700D9E153 /* InfoCell.swift */; };
 		AA5B0EEA217E5E300026FF23 /* InferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B0EE9217E5E300026FF23 /* InferenceViewController.swift */; };
 		AA5B0EEC217E70000026FF23 /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5B0EEB217E70000026FF23 /* CurvedView.swift */; };
@@ -31,6 +32,7 @@
 		4E76B784C111DBC26EEEC02A /* Pods_ImageClassification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageClassification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8EC1EF2626C4B1007DA1EF /* classes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = classes.txt; sourceTree = "<group>"; };
 		5E8EC1F72629F593007DA1EF /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
+		5E8EC200262EB730007DA1EF /* model_ft16.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model_ft16.tflite; sourceTree = "<group>"; };
 		AA16E5A12180843700D9E153 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
 		AA5B0EE9217E5E300026FF23 /* InferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InferenceViewController.swift; sourceTree = "<group>"; };
 		AA5B0EEB217E70000026FF23 /* CurvedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		AA5FEB7A21355CCC00F9BD4B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5E8EC200262EB730007DA1EF /* model_ft16.tflite */,
 				5E8EC1F72629F593007DA1EF /* model.tflite */,
 				AA5FEB7B21355CCC00F9BD4B /* mobilenet_quant_v1_224.tflite */,
 				AA5FEB7C21355CCC00F9BD4B /* labels.txt */,
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8EC201262EB730007DA1EF /* model_ft16.tflite in Resources */,
 				5E8EC1F82629F593007DA1EF /* model.tflite in Resources */,
 				AAE79E64213521DB00E7AC1F /* LaunchScreen.storyboard in Resources */,
 				AAE79E61213521DB00E7AC1F /* Assets.xcassets in Resources */,
