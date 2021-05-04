@@ -1,23 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "down-arrow-20x6.png",
       "idiom" : "universal",
-      "filename" : "icnChevronDown.png",
       "scale" : "1x"
     },
     {
+      "filename" : "down-arrow-40x12.png",
       "idiom" : "universal",
-      "filename" : "icnChevronDown@2x.png",
       "scale" : "2x"
     },
     {
+      "filename" : "down-arrow-60x18.png",
       "idiom" : "universal",
-      "filename" : "icnChevronDown@3x.png",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
